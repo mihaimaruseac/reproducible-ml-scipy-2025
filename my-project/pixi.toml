@@ -15,4 +15,4 @@ fastqc = { version = ">=0.12.1,<0.13", channel = "bioconda" }
 pandas = ">=2.3.0,<3"
 
 [pypi-dependencies]
-pytest = { git = "https://github.com/pytest-dev/pytest" }
+pytest = { git = "https://github.com/pytest-dev/pytest", rev = "8.3.1" }
