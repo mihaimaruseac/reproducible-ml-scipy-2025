@@ -1,0 +1,9 @@
+mihaimaruseac@mm-medium:~/scipy2025/reproducible-ml-scipy-2025/my-project$ pixi run pytest
+pytest: command not found
+mihaimaruseac@mm-medium:~/scipy2025/reproducible-ml-scipy-2025/my-project$ pixi run -e test pytest
+================================================================== test session starts ===================================================================
+platform linux -- Python 3.13.5, pytest-8.3.1, pluggy-1.6.0
+rootdir: /usr/local/google/home/mihaimaruseac/scipy2025/reproducible-ml-scipy-2025/my-project
+collected 0 items                                                                                                                                        
+
+================================================================= no tests ran in 0.00s ==================================================================
