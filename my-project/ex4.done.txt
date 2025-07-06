@@ -9,3 +9,30 @@ collected 0 items
 ================================================================= no tests ran in 0.00s ==================================================================
 mihaimaruseac@mm-medium:~/scipy2025/reproducible-ml-scipy-2025/my-project$ pixi run -e format ruff --version
 ruff 0.12.2
+mihaimaruseac@mm-medium:~/scipy2025/reproducible-ml-scipy-2025/my-project$ pixi list --explicit 
+Package  Version  Build               Size      Kind   Source
+fastqc   0.12.1   hdfd78af_0          11.1 MiB  conda  https://conda.anaconda.org/bioconda/
+numpy    2.3.1    py313h17eae1a_0     8.2 MiB   conda  https://conda.anaconda.org/conda-forge/
+pandas   2.3.0    py313ha87cce1_0     14.3 MiB  conda  https://conda.anaconda.org/conda-forge/
+python   3.13.5   hec9711d_102_cp313  31.7 MiB  conda  https://conda.anaconda.org/conda-forge/
+scipy    1.15.1   py313h750cbce_0     18.4 MiB  conda  https://conda.anaconda.org/conda-forge/
+mihaimaruseac@mm-medium:~/scipy2025/reproducible-ml-scipy-2025/my-project$ pixi list --explicit -e default
+Package  Version  Build               Size      Kind   Source
+fastqc   0.12.1   hdfd78af_0          11.1 MiB  conda  https://conda.anaconda.org/bioconda/
+numpy    2.3.1    py313h17eae1a_0     8.2 MiB   conda  https://conda.anaconda.org/conda-forge/
+pandas   2.3.0    py313ha87cce1_0     14.3 MiB  conda  https://conda.anaconda.org/conda-forge/
+python   3.13.5   hec9711d_102_cp313  31.7 MiB  conda  https://conda.anaconda.org/conda-forge/
+scipy    1.15.1   py313h750cbce_0     18.4 MiB  conda  https://conda.anaconda.org/conda-forge/
+mihaimaruseac@mm-medium:~/scipy2025/reproducible-ml-scipy-2025/my-project$ pixi list --explicit -e test
+Environment: test
+Package  Version  Build               Size      Kind   Source
+fastqc   0.12.1   hdfd78af_0          11.1 MiB  conda  https://conda.anaconda.org/bioconda/
+numpy    2.3.1    py313h17eae1a_0     8.2 MiB   conda  https://conda.anaconda.org/conda-forge/
+pandas   2.3.0    py313ha87cce1_0     14.3 MiB  conda  https://conda.anaconda.org/conda-forge/
+pytest   8.3.1                                  pypi   git+https://github.com/pytest-dev/pytest?rev=8.3.1#de98446075cc07c768387cf64ba497dd75c205de
+python   3.13.5   hec9711d_102_cp313  31.7 MiB  conda  https://conda.anaconda.org/conda-forge/
+scipy    1.15.1   py313h750cbce_0     18.4 MiB  conda  https://conda.anaconda.org/conda-forge/
+mihaimaruseac@mm-medium:~/scipy2025/reproducible-ml-scipy-2025/my-project$ pixi list --explicit -e format
+Environment: format
+Package  Version  Build       Size     Kind   Source
+ruff     0.12.2   hcc1af86_0  8.9 MiB  conda  https://conda.anaconda.org/conda-forge/
