@@ -1,0 +1,6 @@
+mihaimaruseac@mm-medium:~/scipy2025/reproducible-ml-scipy-2025/my-project$ pixi run python -c 'print("Hello, Pixi!")'
+Hello, Pixi!
+mihaimaruseac@mm-medium:~/scipy2025/reproducible-ml-scipy-2025/my-project$ pixi run python -c 'import sys;print(sys.executable)'
+/usr/local/google/home/mihaimaruseac/scipy2025/reproducible-ml-scipy-2025/my-project/.pixi/envs/default/bin/python
+mihaimaruseac@mm-medium:~/scipy2025/reproducible-ml-scipy-2025/my-project$ python3 -c 'import sys;print(sys.executable)'
+/usr/bin/python3
