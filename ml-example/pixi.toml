@@ -28,7 +28,7 @@ pytorch-gpu = ">=2.7.1,<3"
 torchvision = ">=0.22.0,<0.23"
 
 [feature.inference.dependencies]
-matplotlib = "*"
+matplotlib = ">=3.10.3,<4"
 
 [environments]
 cpu = ["cpu"]
